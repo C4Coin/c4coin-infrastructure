@@ -9,4 +9,4 @@
 *.tfvars
 
 # IDE
-.idea/**
+.idea/workspace.xml
