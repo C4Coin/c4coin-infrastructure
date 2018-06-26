@@ -11,7 +11,6 @@ brew install terraform
 2. To deploy the infrastructure changes,
 Navigate to any of the environment (PROD, DEV or SANDBOX) and region.
 
-
 ```bash
 cd dev && cd global
 ``` 
