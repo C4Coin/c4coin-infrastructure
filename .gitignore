@@ -10,3 +10,4 @@
 
 # IDE
 .idea/workspace.xml
+!/init/sandbox/terraform.tfstate
