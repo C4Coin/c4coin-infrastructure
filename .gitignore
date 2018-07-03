@@ -6,7 +6,7 @@
 *.tfstate.*
 
 # .tfvars files
-*.tfvars
+#*.tfvars
 
 # IDE
 .idea/workspace.xml
