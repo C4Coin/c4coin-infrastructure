@@ -26,7 +26,11 @@ resource "google_compute_subnetwork" "my_subnet" {
   enable_flow_logs = "${var.enable_flow_logs}"
 }
 
-
+resource "google_project" "my_project" {
+  name = "My-Project"
+  project_id = "my-project1"
+  org_id     = "964690969740"
+}
 
 
 
