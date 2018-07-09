@@ -12,6 +12,7 @@ terraform {
 }
 
 
+
 resource "google_compute_firewall" "allow-icmp" {
   name = "${var.vpc_name}-allow-icmp"
   network = "${var.vpc_name}"
