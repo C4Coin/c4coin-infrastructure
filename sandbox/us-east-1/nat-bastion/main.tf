@@ -11,8 +11,6 @@ terraform {
   }
 }
 
-
-
 module "nat-gateway" {
   source     = "../../../modules/nat"
   region     = "${var.region}"
