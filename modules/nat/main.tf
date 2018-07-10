@@ -81,7 +81,7 @@ resource "google_compute_route" "nat-gateway" {
   tags                   = ["${compact(concat(list("${var.name}nat-${var.region}"), var.tags))}"]
   priority               = "${var.route_priority}"
 }
-
+/*
 resource "google_compute_firewall" "nat-gateway" {
   count   = "${var.module_enabled ? 1 : 0}"
   name    = "${var.name}nat-${var.zone == "" ? lookup(var.region_params["${var.region}"], "zone") : var.zone}"
@@ -95,6 +95,7 @@ resource "google_compute_firewall" "nat-gateway" {
   source_tags = ["${compact(concat(list("${var.name}nat-${var.region}", "${var.name}nat-${var.zone == "" ? lookup(var.region_params["${var.region}"], "zone") : var.zone}"), var.tags))}"]
   target_tags = ["${compact(concat(list("${var.name}nat-${var.zone == "" ? lookup(var.region_params["${var.region}"], "zone") : var.zone}"), var.tags))}"]
 }
+*/
 
 resource "google_compute_address" "default" {
   count   = "${var.module_enabled && var.ip_address_name == "" ? 1 : 0}"

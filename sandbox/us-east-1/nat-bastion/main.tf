@@ -19,6 +19,7 @@ module "nat-gateway" {
   zone       = "${var.zone}"
   network    = "${var.vpc_name}"
   subnetwork = "${var.subnet_name}"
+  tags        = "${var.tags}"
 }
 
 
