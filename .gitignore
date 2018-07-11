@@ -7,7 +7,7 @@
 
 # .tfvars files
 #*.tfvars
+!/init/sandbox/terraform.tfstate
 
 # IDE
-.idea/workspace.xml
-!/init/sandbox/terraform.tfstate
+.idea/**
