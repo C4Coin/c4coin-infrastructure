@@ -70,6 +70,7 @@ module "nat-gateway" {
   ]
 }
 
+
 resource "google_compute_route" "nat-gateway" {
   count                  = "${var.module_enabled ? 1 : 0}"
   name                   = "${var.name}nat-${var.zone == "" ? lookup(var.region_params["${var.region}"], "zone") : var.zone}"
