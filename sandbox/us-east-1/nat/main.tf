@@ -7,7 +7,7 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket = "terraform-state-sandbox-c4coin"
-    prefix = "/us-east-1/nat-bastion"
+    prefix = "/us-east-1/nat"
   }
 }
 

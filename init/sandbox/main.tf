@@ -1,5 +1,6 @@
 #credential can be passed by env varialbes
-# set GOOGLE_CREDENTIALS=gce-terraform-key.json
+# set GOOGLE_CREDENTIALS=gce-terraform-key.json or
+# export GOOGLE_CREDENTIALS=gce-terraform-key.json
 
 #* `GOOGLE_CREDENTIALS`
 #* `GOOGLE_CLOUD_KEYFILE_JSON`

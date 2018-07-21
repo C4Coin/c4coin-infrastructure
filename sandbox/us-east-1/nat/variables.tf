@@ -7,3 +7,5 @@ variable "zone" {}
 variable "vpc_name" {}
 variable "subnet_name" {}
 //variable "tags" {type = "list"}
+
+
