@@ -1,4 +1,4 @@
-
+region = "us-east1"
 
 #firewall
 protocol ="tcp"
