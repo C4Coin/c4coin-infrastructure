@@ -66,6 +66,9 @@ terraform apply -var-file="../../terraform.auto.tfvars"
 6.  Create NAT + Bastion
 
 cd (sandbox/dev/qa/prod)/(us-east1/us-central-1)/nat-bastion
+
+Update bastion_user and bastion-ssh-key 
+
 ```bash
 terraform init
 ```
