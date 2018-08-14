@@ -24,12 +24,14 @@ terraform --version
 
 3. cd init/(sandbox/dev/qa/prod)
 
+
 a. follow setup-terraform-service-account.txt to create terraform service account
 
 b. create bucket for terraform state files
 ```bash
 terraform init 
 ```
+
 ```bash
 terraform plan -var-file="../../terraform.auto.tfvars"
 ```

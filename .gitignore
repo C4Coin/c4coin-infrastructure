@@ -9,5 +9,3 @@
 #*.tfvars
 !/init/sandbox/terraform.tfstate
 
-# IDE
-.idea/**
