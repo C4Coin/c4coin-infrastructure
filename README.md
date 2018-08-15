@@ -33,10 +33,10 @@ terraform init
 ```
 
 ```bash
-terraform plan -var-file="../../terraform.auto.tfvars"
+terraform plan 
 ```
 ```bash
-terraform apply -var-file="../../terraform.auto.tfvars"
+terraform apply 
 ```
 
 4.  Create VPC and Subnet
