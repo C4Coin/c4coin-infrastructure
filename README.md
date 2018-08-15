@@ -24,8 +24,7 @@ terraform --version
 
 3. cd init/(sandbox/dev/qa/prod)
 
-
-a. follow setup-terraform-service-account.txt to create terraform service account
+a. follow setup-terraform-service-account.txt to create terraform service account (optional)
 
 b. create bucket for terraform state files
 ```bash
@@ -38,7 +37,6 @@ terraform plan
 ```bash
 terraform apply 
 ```
-
 4.  Create VPC and Subnet
 
 cd (sandbox/dev/qa/prod)/(us-east1/us-central-1)/network
@@ -64,7 +62,6 @@ terraform plan -var-file="../../terraform.auto.tfvars"
 ```bash
 terraform apply -var-file="../../terraform.auto.tfvars"
 ```
-
 6.  Create NAT + Bastion
 
 cd (sandbox/dev/qa/prod)/(us-east1/us-central-1)/nat-bastion

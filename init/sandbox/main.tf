@@ -12,6 +12,7 @@ provider "google" {
  // credentials = "${file("../gce-terraform-key.json")}"
 }
 
+
 resource "google_storage_bucket" "terraform-state" {
   name     = "terraform-state-sandbox-c4coin"
  // location = "${var.gce_region}"
